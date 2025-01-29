@@ -9,6 +9,11 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .destacados {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
     
 }
 @media (max-width: 825px) {
@@ -21,9 +26,16 @@
     .tarjetas {
         display: grid;
         grid-template-columns: 1fr;
+        width: 90%;
     }
     .tarjeta img {
         
-        width: 100px;
+        height: 60%;
+        
+    }
+    .destacados {
+        display: grid;
+        grid-template-columns: 1fr;
+        
     }    
 }
