@@ -1,0 +1,61 @@
+/* Layout. */
+
+/* Estilos. */
+header nav .titulo {
+    text-decoration: none;
+    color: rgb(110, 109, 109);
+    font-size: 25px;
+    text-transform: uppercase;
+    
+}
+
+nav {
+    grid-area: nav;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-top: 10px;
+    
+}
+
+nav .menu {
+    list-style-type: none;
+    display: flex;
+    
+    
+    
+}
+
+nav .menu li {
+    text-decoration: none;
+    display: flex;
+    margin: 10px;
+    
+    
+    
+}
+
+nav .menu li a {
+
+    text-decoration: none;
+    font-size: 15px;
+    
+    text-transform: uppercase;
+    
+}
+.opcion {
+    padding: 5px 15px;
+    color: rgb(110, 109, 109);
+}
+.boton {
+    border: 1px solid #0497fa;
+    padding: 5px 20px;
+    border-radius: 30px;
+    color: #0497fa;
+}
+
+/* Pruebas. */
+/* .header-nav {
+    border: 2px solid green;
+} */
