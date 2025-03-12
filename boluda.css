@@ -77,7 +77,8 @@ footer {grid-area: body03;}
 
 .tarjetas {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(260px, 1fr));
     justify-content: center;
     
     
